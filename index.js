@@ -14,8 +14,8 @@ let bodySelector = d3.select("body");
 console.log(bodySelector);
 let svgSelector = bodySelector
   .append("svg")
-  .attr("width", 300)
-  .attr("height", 300);
+  .attr("width", 200)
+  .attr("height", 200);
 let circleSelector = svgSelector
   .append("circle")
   .attr("cx", 90)

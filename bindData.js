@@ -18,8 +18,8 @@ let circleData = [40, 20, 10];
 const body = d3
   .select("body")
   .append("svg")
-  .attr("width", 200)
-  .attr("height", 200);
+  .attr("width", 100)
+  .attr("height", 100);
 
 const circles = body
   .selectAll("circle")

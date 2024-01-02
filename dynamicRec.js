@@ -5,7 +5,6 @@ const b = d3
   .append("svg")
   .attr("width", 300)
   .attr("height", 300);
-console.log(body);
 
 const cir = b.selectAll("circle").data(dataset).enter().append("circle");
 
